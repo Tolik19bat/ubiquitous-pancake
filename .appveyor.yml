@@ -1,11 +1,5 @@
 image: Ubuntu1804  # образ для сборки
 
-install:
-  - ps: Install-Product node $env:NODE_VERSION
-  - ps: Install-Product nvm 1.1.7
-  - nvm install 14
-  - node --version
-  - npm --version
 
 branches:
   only:
